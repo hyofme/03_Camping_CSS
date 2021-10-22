@@ -1,0 +1,211 @@
+.wrapper{
+    background-color: #FFC0CB;
+}
+
+.logo{
+    width: 50px;
+    padding: 10px 50px;
+}
+
+#navbar ul{
+    list-style: none;
+    padding: 10px 30px;
+    margin: 0;
+
+}
+#navbar ul li{
+    display: inline;
+    margin: 0 20px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+#navbar ul li a:hover{
+    color: red;
+}
+
+#carousel{
+    height: 700px;
+    margin-top: 10px;
+    background-image: url(../img/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-clip: content-box;
+    border-radius: 0 0 25% 25%;
+}
+
+.intro_item{
+    width: 20%;
+    background-color: #fff;
+    border-radius: 10%;
+    padding: 10px 5%;
+    text-align: center;
+    margin: -120px 2.5% 0 2.5%;
+    
+    box-sizing: border-box;
+    float: left;
+}
+
+.intro_item img{
+    height: 100px;
+}
+
+.intro_item p{
+    font-weight: bold;
+}
+
+.clear{
+    clear: both;
+}
+
+.product_title{
+    text-align: center;
+    color: #FF1493;
+    padding-top: 100px;
+}
+
+.product_item{
+    color: gray;
+    width: 22.5%;
+    margin: 10px 1.25%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10%;
+    float: left;
+}
+
+.product_item_img{
+    position: relative;
+}
+
+.product_item_img_bg{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.product_item_img_heart{
+    position: absolute;
+    margin: 0;
+    padding: 10px;
+    color: red;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 25%;
+    top: 20px;
+    right: 20px;
+}
+
+.product_item_btn{
+    border: 0 solid;
+    color: grey;
+    background-color: #CFCFCF;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30%/100%;
+}
+
+.product_btn{
+    text-align: center;
+}
+
+.product_btn_viewall{
+    margin: 20px 0;
+    border: 1px solid #FF34B3;
+    color: #FF34B3;
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30%/100%;
+}
+
+.product_btn_viewall:hover{
+    background-color: green;
+}
+
+#service{
+    background-color: #f7d3d9;
+    border-radius: 20px;
+}
+
+.service_img{
+    height: 400px;
+    width: 50%;
+    background-image: url(../img/mask.png);
+    background-repeat: no-repeat;
+    background-size: 1050px 400px;
+    padding: 0 0 0 150px;
+    box-sizing: border-box;
+    float: left;
+}
+.service_information{
+    height: 400px;
+    width: 50%;
+    float: left;
+    color: gray;
+}
+
+.service_information p{
+    font-size: 20px;
+}
+
+.service_information_app{
+    width: 50%;
+    float: left;
+}
+
+.service_information_app img{
+    width: 200px;
+}
+
+.service_information_app i{
+    color: #FA8072;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+#footer{
+    height: 300px;
+    margin-top: 50px;
+    color: gray;
+    background-color: #f7d3d9;
+    border-radius: 100px 100px 0 0;
+}
+
+.footer_left{
+    padding: 30px 40px;
+    width: 40%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.footer_left p{
+    font-size: 20px;
+}
+
+.footer_right{
+    padding-top: 30px;
+    width: 20%;
+    float: left;
+}
+
+.footer_right ul{
+    font-size: 20px;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.footer_right h2{
+    padding-left: 40px;
+}
+
+.footer_bottom{
+    text-align: center;
+}
